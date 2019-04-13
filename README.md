@@ -8,7 +8,7 @@ Sometime macos and google drive app wil create those files Icon? and .DS_Store. 
 
 
 #Generate keytool
-`keytool -genkey -v -keystore foodapp.keystore -alias foodapp -keyalg RSA -keysize 2048 -validity 10000`
+`keytool -genkey -v -keystore foodapp.keystore -alias app_name -keyalg RSA -keysize 2048 -validity 10000`
 
 
 #Sign the app
