@@ -18,6 +18,9 @@ Sometime macos and google drive app wil create those files Icon? and .DS_Store. 
 #Align the app
 `~/Library/Android/sdk/build-tools/28.0.2/zipalign  -v 4 apptastic0.6-unsigned.apk apptastic0.6-signed.apk`
 
+# in case you forgot the keystore app name
+`keytool -keystore formconnect.keystore -list -v`
+
 
 
 
