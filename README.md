@@ -7,15 +7,16 @@ Sometime macos and google drive app wil create those files Icon? and .DS_Store. 
 ``rm `find . -name 'Icon?'`; rm `find . -name .DS_Store` ; cordova build --release``
 
 
-#Generate keytool
+# Generate keytool
+#Only the first time
 `keytool -genkey -v -keystore foodapp.keystore -alias app_name -keyalg RSA -keysize 2048 -validity 10000`
 
 
-#Sign the app
+# Sign the app
 `jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore app-release-unsigned.apk app_name`
 
 
-#Align the app
+# Align the app
 `~/Library/Android/sdk/build-tools/28.0.2/zipalign  -v 4 apptastic0.6-unsigned.apk apptastic0.6-signed.apk`
 
 # in case you forgot the keystore app name
