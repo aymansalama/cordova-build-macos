@@ -22,6 +22,9 @@ Sometime macos and google drive app wil create those files Icon? and .DS_Store. 
 # in case you forgot the keystore app name
 `keytool -keystore formconnect.keystore -list -v`
 
+# proper integration with AngularJS
+``https://medium.com/@EliaPalme/how-to-wrap-an-angular-app-with-apache-cordova-909024a25d79``
+
 
 
 
