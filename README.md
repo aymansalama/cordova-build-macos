@@ -25,6 +25,18 @@ Sometime macos and google drive app wil create those files Icon? and .DS_Store. 
 # proper integration with AngularJS
 ``https://medium.com/@EliaPalme/how-to-wrap-an-angular-app-with-apache-cordova-909024a25d79``
 
+# run iOS simulator
+1. install Xcode
+2. Open emulator
+3. build the app after adding platform iOS
+4. run the app with the emulator
 
+#install ios sims
+``npm install -g ios-sim@next``
+
+#List available simulators
+``xcrun simctl list``
+#https://www.anexinet.com/blog/install-app-ios-simulator/ 
+``xcrun simctl install 34EFC419-1530-4CBD-8564-22DD9C03644A ~/path_to_app/myapp.app``
 
 
